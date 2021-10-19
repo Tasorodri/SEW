@@ -67,12 +67,12 @@ nav a { /* especificidad: 002 */
   font-size: 1.5em;
   font-weight: bold;
   text-align: left;
-  color: #1d20db;
+  color: #0f118b;
   background-color: #C0C0C0; 
 }
-nav li:hover, a:hover { /* especificidad: 012 */
-  background-color:#d66262;
-  color: #1d20db;
+nav li:hover,nav  a:hover { /* especificidad: 012 */
+  background-color:#ee8b8b;
+  color: #0f118b;
 }
 
 nav > ul { /* especificidad: 002 */
