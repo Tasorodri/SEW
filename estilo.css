@@ -1,7 +1,5 @@
  body {  /* especificidad: 001 */
-      font: 400 1em Tahoma, sans-serif; /*la fueunte segunda hace de familia generica
-      si no tiene tahoma cogera una fuente de la familia sans serif para que no
-      se pierda tanto el estilo  /*Familia sans-serif*/
+      font: 400 1em Tahoma, sans-serif; 
       line-height: 1.8;
       color: #000000;
       background-color: #C0C0C0; 
@@ -64,7 +62,7 @@ table th{ /*especificidad 011 */
 
 nav a { /* especificidad: 002 */
   text-decoration: none ;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
   text-align: left;
   color: #0f118b;
