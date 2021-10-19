@@ -1,0 +1,20 @@
+
+header section{/*especidificidad 002*/
+    /*Usado para colocar elementos que tengan que estar uno detras de otro*/
+    display : flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+footer {
+  text-align: center;
+}
+footer p {
+  margin: 0.75em;
+  border: 0.05em solid black;
+  background-color: azure;
+  min-width: fit-content;
+  text-align: center;
+}
