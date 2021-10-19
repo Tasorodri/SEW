@@ -87,6 +87,20 @@ header section{
   border-style: double;
   padding-left: 16rem;
   padding-right: 16rem;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+text-align: center;
+}
+footer p {
+margin: 0.75em;
+border: 0.05em solid black;
+background-color: azure;
+min-width: fit-content;
+text-align: center;
 }
 
 
