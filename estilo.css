@@ -107,7 +107,7 @@ header section{ /* especificidad: 002 */
   justify-content: center;
 }
 
-input[type = "button"] {/* especificidad: 011 */
+input[type = "submit"] {/* especificidad: 011 */
   background-color:#ee8b8b;
   color: #0f118b;
 }
