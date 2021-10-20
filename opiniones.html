@@ -38,13 +38,13 @@
                 <a href = "index.html" accesskey="I">Inicio</a>
             </li>
             <li>
-                <a href="VidaProfesional.html" accesskey="P" >Vida Profesional</a>
+                <a href="opiniones.html" accesskey="P" >Vida Profesional</a>
             </li>
             <li>
-                <a href="Java.html" accesskey="J">Java</a>
+                <a href="java.html" accesskey="J">Java</a>
             </li>
             <li>
-                <a href="Publicaciones.html" accesskey="L">Libros Pulbicados</a>
+                <a href="publicaciones.html" accesskey="L">Libros Pulbicados</a>
             </li>
         </ul>
     </nav>
@@ -52,25 +52,27 @@
     <main>
             
         <section>
-            <h2>Vida profesional</h2>
-            <section>                
-            <h3>Estancia en Sun</h3>
-            <p>
-                Gosling estuvo en Sun desde 1984 a 2010 (26 años), su etapa allí fue marcada por el desarrollo del lenguaje de programación Java. 
-                Tuvo la idea de la máquina virtual mientras trabajaba en un programa para portear software desde PERQ traduciendo Perq Q-Code a ensamblador VAX. 
-                Creó el diseño original de Java y la implementación de su compilador original, así como la máquina virtual. Dejo Sun tras su fusión con Oracle en 2010 
-                citando reducciones en sueldo, estatus y capacidad de decisión.
-            </p>
-            </section>
-            <section>
-                <h3>Vida Posterior</h3>
-                <p>
-                    En Marzo de 2011. Gosling entro en Google. 6 meses despues, siguió a su colega Bill Vass y se unio a una statup llamada "Liquid Robotics". A finales
-                    de 2016, "Liquid Robotics" fue adquirida por Boeing. Tras la adquisicion, Gosling dejó Liquid Robotics, para trabajar en Amazon Web Services para 
-                    trabajar con ingeniero, donde esta desde Mayo del 2017  
-                </p>  
-            </section>
-    
+            <h2>Danos tu opinion</h2>
+            <p> ¿Tienes alguna opinión sobre James Gosling?, ¿algun dato curioso?, dejanoslo a continuación para mejorar la página </p>
+            <form name="datos">
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" ><br>
+                
+                <label for="surname">Apellido:</label><br>
+                <input type="text" id="surname" ><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id= "email" >E-mail<br>
+
+                <fieldset>
+                    <legend> ¿Quieres que te citemos como contribuidor? </legend>
+                    <p><label> <input type=radio name=size> Si </label></p>
+                    <p><label> <input type=radio name=size> No </label></p>
+                </fieldset>
+                <p><label>información: <textarea cols="20" rows="2"></textarea></label></p>
+                <input type="button"
+                value="Enviar!">
+            </form>
         </section>
     
 
