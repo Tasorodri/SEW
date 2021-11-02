@@ -1,0 +1,41 @@
+body {
+      font: 400 1em Tahoma, sans-serif; 
+      color: #000000;
+      background-color: #ffffff;
+      padding-left : 5em;
+      padding-right : 3em;
+  }
+
+h1 {
+      font: 600 4.5em Georgia, serif;
+      color: #000000;
+      
+      background-color: #ffffff;
+      text-transform: uppercase;
+      text-align: center;   
+  }
+h2 {
+    font: 600 2.5em "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #000000;
+    
+    background-color: #ffffff;
+    text-transform: uppercase;   
+    
+    padding-top : 3em;
+}
+h3 {
+  font: 600 2em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #000000;
+  
+  background-color: #ffffff;
+  
+}
+h4 {
+  font: 500 1.5em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #000000;
+  
+  background-color: #ffffff;
+}
+  
+
+
